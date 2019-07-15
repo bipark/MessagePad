@@ -1,8 +1,7 @@
 <template>
 
   <div class="home_base">
-    <div>{{ curTime | moment("dddd, MMMM Do YYYY") }}</div>
-    <div>{{ curTime | moment.utc.format("HH:mm:ss") }}</div>
+    <div>{{ curTime | moment("YYYY년  MMMM Do dddd") }}</div>
   </div>
 
 </template>
@@ -15,6 +14,9 @@
 			return {
 				curTime: new Date()
       }
+    },
+
+    created() {
     }
 	}
 </script>

@@ -14,10 +14,10 @@
   /* CSS */
 
   body {
-    margin: 2%;
+    margin: 4%;
     padding: 0%;
     background-color: black;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
   }
 
 </style>
